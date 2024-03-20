@@ -23,8 +23,8 @@ class _loginformState extends State<loginform> {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromARGB(30, 15, 215, 71),
-                Color.fromARGB(100, 15, 215, 192),
+                Color.fromARGB(100, 64, 58, 239),
+                Color.fromARGB(120, 20, 180, 145),
               ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -39,9 +39,9 @@ class _loginformState extends State<loginform> {
                     children: [
 
 
-                      const Image(image: AssetImage('assets/pngimage/fast-food (2).png')),
+                      const Image(image: AssetImage('assets/pngimage/logo.png'),),
                       const Padding(padding: EdgeInsets.only(bottom: 10)),
-                      const Text('ABC XYZ BAKERY',style: TextStyle(fontSize: 30,fontWeight: FontWeight.w600,color: Colors.teal,decoration: TextDecoration.overline)),
+                       Text('TÙY YẾN BAKERY',style: TextStyle(fontSize: 30,fontWeight: FontWeight.w600,color: Colors.brown[500],decoration: TextDecoration.overline)),
                       const Padding(padding: EdgeInsets.only(top: 30)),
                      const TextField(
 

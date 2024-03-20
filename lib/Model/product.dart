@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+//import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
 import 'package:intl/intl.dart';
 
@@ -6,15 +6,17 @@ final formatdate = DateFormat.yMd();
 const uuid = Uuid();
 enum Category {StickyRice, Bread, Drink}
 const IconCategory = {
-  Category.Bread : '',
-  Category.StickyRice : '',
-  Category.Drink: ''
+  Category.Bread : 'assets/pngimage/bread.png',
+  Category.StickyRice : 'assets/pngimage/stickyrice.png',
+  Category.Drink: 'assets/pngimage/drinks.png'
 };
-
+// - assets/pngimage/bread.png
+// - assets/pngimage/drinks.png
+// - assets/pngimage/stickyrice.png
 class product{
   final String id;
   final String title;
-  final double amount;
+  final int amount;
   final DateTime date;
   final Category cate;
 

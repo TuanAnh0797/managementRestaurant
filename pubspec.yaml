@@ -69,6 +69,10 @@ flutter:
      - assets/pngimage/fast-food (1).png
      - assets/pngimage/fast-food (2).png
      - assets/svgicon/login.svg
+     - assets/pngimage/logo.png
+     - assets/pngimage/bread.png
+     - assets/pngimage/drinks.png
+     - assets/pngimage/stickyrice.png
    uses-material-design: true
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
